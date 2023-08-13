@@ -1,0 +1,51 @@
+.sidebarContainer .iconFaXmark {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.sidebarContainer .iconFaXmark:hover {
+  transform: scale(1.05);
+}
+
+.sidebarContainer .iconFaXmark:before {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+}
+
+.sidebarContainer {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 4;
+  padding: 75px 10px 0;
+  background-color: #24262b;
+  color: #dad8d8;
+  -webkit-box-shadow: 0px 0px 7px -1px #000000;
+  box-shadow: 0px 0px 7px -1px #000000;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebarLogoElement {
+  margin-bottom: 25px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to top right,
+      #232323,
+      #49354c,
+      #843f64,
+      #c34662,
+      #f45d48
+    )
+    1;
+  border-bottom: 0;
+}
+
+.sidebarLogoElement img {
+  width: 100%;
+}
